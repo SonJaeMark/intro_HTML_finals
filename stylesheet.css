@@ -128,6 +128,138 @@ body
 {
     display: flex;
     height: 85vh;
-    /* background-color: aquamarine; */
+    
 
+}
+
+.section_registration
+{
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    
+}
+
+.registration_container
+{
+    display: flex;
+    height: 70vh;
+    width: 50vw;
+    background-color: #65bcd6;
+    margin-top: 5vh;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.reg_img
+{
+    border-radius: 14px;
+}
+
+.form_cintainer
+{
+    width: 50vw;
+}
+
+.form_cintainer h2
+{
+    margin-top: 3%;
+    padding-left: 5%;
+    color: white;
+    font-size: xx-large;
+}
+
+.form_cintainer form
+{
+    margin-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.form_cintainer input
+{
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 0;
+    height: 25px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.form_cintainer div
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_cintainer button
+{
+    border: 0;
+    background-color: #2b8097;
+    color: white;
+    width: 20%;
+    padding: 2% 0;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.login_page
+{
+    background-image: url('resources/login_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_container form
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.login_container form input
+{
+    margin-top: 3vh;
+    border: 0;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.login_container
+{
+    height: 70vh;
+    width: 40vw;
+    background-color: aliceblue;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_container
+{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.button_container button
+{
+    margin-top: 3vh;
+    border: 0;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #2b8097;
+    color: white;
 }
