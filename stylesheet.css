@@ -1,0 +1,133 @@
+*
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    background-color: aliceblue;
+}
+
+.header
+{
+    
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    /* background-color: bisque; */
+    justify-content: space-between;
+}
+
+.header_nav_bar
+{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    align-items: center;
+}
+
+.header a
+{
+    text-decoration: none;
+}
+
+.nav_bar ul
+{
+    list-style: none;
+
+}
+
+.nav_bar li
+{
+    float: left;
+}
+
+.nav_bar a
+{
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.icon
+{
+    width: 30px;
+}
+
+.logo
+{
+    width: 120px;
+}
+
+.nav_bar_side 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+}
+
+.nav_bar_side a
+{
+    padding: 10px;
+}
+
+.section_home_page
+{
+    display: flex;
+    justify-content: center;
+}
+
+.section_page
+{
+    display: flex;
+    height: 70vh;
+    width: 90vw;
+    padding-top: 10vh;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+.sec_l
+{
+    padding-top: 10vh;
+    margin-left: 15vw;
+}
+
+.sec_l_inside h1, p, button
+{
+    margin-top: 20px;
+}
+
+.sec_l_inside button
+{
+    padding: 5px 35px;
+}
+
+.sec_r
+{
+    margin-right: 10vw;
+}
+
+.view
+{
+    background-color: white;
+    font-size: medium;
+    border-radius: 10px;
+}
+
+
+/*  dean ito yung sa about us na sectio */
+.section_about_us
+{
+    display: flex;
+    height: 85vh;
+    /* background-color: aquamarine; */
+
+}
